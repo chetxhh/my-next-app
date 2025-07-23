@@ -109,18 +109,18 @@ export default function UsersPage() {
       <table className="w-full border border-gray-200 shadow rounded">
         <thead className="bg-gray-100">
           <tr>
-            <th className="p-2">ID</th>
+  
             <th className="p-2">Name</th>
-            <th className="p-2">Email</th>
+
             <th className="p-2">Actions</th>
           </tr>
         </thead>
         <tbody>
           {users.map((user: User) => (
             <tr key={user.id} className="border-t text-sm">
-              <td className="p-2">{user.id}</td>
+
               <td className="p-2">{user.name}</td>
-              <td className="p-2">{user.email}</td>
+  
               <td className="p-2 flex gap-2">
                 <button
                   className="text-blue-600 hover:underline"
